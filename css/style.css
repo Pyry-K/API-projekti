@@ -1,0 +1,50 @@
+/* rootissa kaikki kätetyt värit, spacing ja fontti */
+:root {
+    --color-background: #4F0300;
+    --color-box: #FABC43;
+    --color-text: #F6F6CC;
+    --color-test: purple;
+    --color-border: #BC8E44;
+
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+
+    --border-radius: 8px;
+    --content-width: 1000px;
+
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--color-text);
+    background: var(--color-background);
+    min-height: 100vh;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2, p {
+    margin-top: 0;
+}
+.myButton {
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: var(--color-box);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+p {
+    font-size: 1.2rem;
+}
+.myButton:hover {
+    opacity: 0.8;
+}
