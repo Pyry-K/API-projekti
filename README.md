@@ -74,11 +74,11 @@ Pohdi työtäsi ja oppimisprosessiasi.
     - Missä onnistuin? Graafinen suunnittelu oli aikaa vievää, mutta onnistui todella hyvin.
     - Mikä oli haastavaa? JavaScript oli haastavin osa.
     - Mitä parantaisin, jos aikaa olisi enemmän? Laaajempi kokonaisuus
-    - Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
+    - Mitä opin HTML:stä, CSS:stä, JavaScriptistä?
         - HTML:ssä hioin olevia taitoja
         - CSS graafinen yleisasu parani
-        - JavaScriptissä CSS muuttujien muuttaminen.
-    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? Projektista tuli suuniteltua suppeampi
+        - JavaScriptissä vähän funktioita
+    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? Projektista tuli suuniteltua suppeampi, myös js kaipaisi kehitystä
     - Oma arvio projektista: 9/10 pistettä
     - Tuntien määrä käytetty projektiin: +20h
 
@@ -86,7 +86,7 @@ Pohdi työtäsi ja oppimisprosessiasi.
     - Missä onnistuin? JavaScripti ja API data requestit onnistuivat mielestäni hyvin.
     - Mikä oli haastavaa? Sanoisin JavaScript kuten aina.
     - Mitä parantaisin, jos aikaa olisi enemmän? QoL asioita ja animaatioden lisäys.
-    - Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta?
+    - Mitä opin HTML:stä, CSS:stä, JavaScriptistä?
         - HTML ei tullut tällä kertaa mitään aivan uutta.
         - CSS perustaitojen kehitys.
         - JS:ssä tuli opittua miten saa API requestilla dataa suoraan HTML elentteihin.
