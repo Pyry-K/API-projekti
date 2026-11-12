@@ -18,7 +18,7 @@
 * {
     box-sizing: border-box;
 }
-
+/* bodyn muuttujat ja standardit */
 body {
     font-family: var(--font);
     color: var(--color-text);
@@ -29,6 +29,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* Otsikot */
 h1, h2, p {
     margin-top: 10px;
 }
@@ -38,6 +39,7 @@ h1 {
 h2 {
     font-size: 1.7rem;
 }
+/* Nappien yleiset */
 .myButton {
     justify-content: center;
     width: 200px;
@@ -48,11 +50,16 @@ h2 {
     cursor: pointer;
     font-size: 1.2rem;
 }
+.myButton:hover {
+    opacity: 0.8;
+}
+/* Tekstit */
 p {
     font-size: 1.2rem;
 }
-.myButton:hover {
-    opacity: 0.8;
+.p2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 /* "default" menujen muokkaus */
 .defMenu {
@@ -88,7 +95,7 @@ p {
     max-width: 1100px;
     margin: 20px auto;
 }
-
+/* Luokan valinta hommat */
 .classOption {
     display: flex;
     flex-direction: column;
@@ -124,6 +131,7 @@ span {
     font-size: 1rem;
     margin-bottom: 17px;
 }
+/* Nimen valinta */
 .nameform {
     margin-bottom: 20px;
 }
@@ -147,11 +155,6 @@ label {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-.p2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
 .overview {
     font-size: 2.2rem;
     margin-top: 20px;

@@ -90,9 +90,9 @@ Pohdi työtäsi ja oppimisprosessiasi.
         - HTML ei tullut tällä kertaa mitään aivan uutta.
         - CSS perustaitojen kehitys.
         - JS:ssä tuli opittua miten saa API requestilla dataa suoraan HTML elentteihin.
-    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? CSS on kyllä minun heikkous.
-    - Oma arvio projektista: 9/10 pistettä
-    - Tuntien määrä käytetty projektiin: 7-9h
+    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? Tuli ehkä vähän heikompi suoritus kuin normaalisti. Vähän suppeampi projekti.
+    - Oma arvio projektista: 8/10 pistettä
+    - Tuntien määrä käytetty projektiin: 8-10h
 
 # Lähteet ja kiitokset
 Lähteet listattuna:
