@@ -1,28 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>API Projekti</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
+    <h1>API Character Creator</h1>
 
-    <h1>API projektin nimi*</h1>
-
-    <p>Welcome!</p>
-
-    <button id="myButton" class="myButton">Click me</button>
-
-    <div id="output"></div>
+    <h2>Welcome to D&D Character Creator!</h2>
+    <p>Here you can create your own unique character for your next tabletop adventure!</p>
+    <p>No need to think it too hard. Just few clicks and you're ready to go!</p>
     <br>
-    <button id="myButton2" class="myButton">Raw data test</button>
-
-    <div id="outputApi"></div>
+    <!-- hahmon nimen valinta -->
+    <form id="nameForm" class="nameform">
+        <label for="nameInput">First, we need a name. Something catchy, something that rolls out from the tongue.</label>
+        <br>
+        <br>
+        <input type="text" id="nameInput" placeholder="Type your character's name">
+        <br>
+        <button class="myButton" type="submit" id="nameButton">Confirm</button>
+    </form>
     <br>
-    <button id="myButton3" class="myButton">Classes</button>
-    <div id="secretText" class="p"></div>
-    <div id="outputApiJson" class="p"></div>
-</body>
+    <!-- hahmon rodun valinta osio -->
+    <p class="p2">Then we need your character's species. Different species have unique traits and abilities, and most importantly, <i>The Looks.</i></p>
+    <br>
+    <button id="RaceButton" class="myButton">Choose your species!</button>
+    <br>
+    <br>
+    <div id= "RaceSelect" hidden = "true">
+      <div>
+        <h2>What is your chracter's species?</h2>
+        <select class="defMenu" id="outputApi">
+        </select>
+      </div>
+      <button id="selectRace" class="defbutton">Confirm</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- hahmon class valinta osio -->
+    <p class = "p2">Last of all, choose your character's class! Think this is like a profession. Different classes have different skills and playstyles.</p>
+    <button id="selectClass" class="myButton">Choose your class!</button>
+    <div class = "ClassSelect" id="ClassSelect" hidden = "true">
+        <h2>What is your character's class?</h2>
+        <div class="classGrid" id="classGrid">
+            <button class="classOption" data-class="Barbarian">
+                <img src="img/barbarian.png" alt="Barbarian">
+                <span>Barbarian</span>
+            </button>
+
+        <button class="classOption" data-class="Bard">
+            <img src="img/bard.png" alt="Bard">
+            <span>Bard</span>
+        </button>
+
+        <button class="classOption" data-class="Cleric">
+            <img src="img/cleric.png" alt="Cleric">
+            <span>Cleric</span>
+        </button>
+
+        <button class="classOption" data-class="Druid">
+            <img src="img/druid.png" alt="Druid">
+            <span>Druid</span>
+        </button>
+
+        <button class="classOption" data-class="Fighter">
+            <img src="img/fighter.png" alt="Fighter">
+            <span>Fighter</span>
+        </button>
+        
+        <button class="classOption" data-class="Monk">
+            <img src="img/monk.png" alt="Monk">
+            <span>Monk</span>
+        </button>
+        <p>Barbarian - Barbarians are combination of melee attacks and raw damage make this warrior strong and scary to face against.</p>
+        <p>Bard - Was your dream to be a glamorous performer and a distiguised scholar, Bards seem to do it all.</p>
+        <p>Cleric - Clerics are versatile spellcasters, being able to heal their allies while also dealing damage to their foes.</p>
+        <p>Druid - Druid's love for nature allowes them to use healing magic or turn themselves into animals to fight for the nature.</p>
+        <p>Fighter - Fighters are highly skilled in the use of weapons and armor, making them a tough frontline in combat.</p>
+        <p>Monk - Monks are skilled in unarmed combat and can use their agility and speed to outmaneuver their opponents.</p>
+        <button class="classOption" data-class="Paladin">
+            <img src="img/paladin.png" alt="Paladin">
+            <span>Paladin</span>
+        </button>
+        
+        <button class="classOption" data-class="Ranger">
+            <img src="img/ranger.png" alt="Ranger">
+            <span>Ranger</span>
+        </button>
+        
+        <button class="classOption" data-class="Rogue">
+            <img src="img/rogue.png" alt="Rogue">
+            <span>Rogue</span>
+        </button>
+        
+        <button class="classOption" data-class="Sorcerer">
+            <img src="img/sorcrer.png" alt="Sorcerer">
+            <span>Sorcerer</span>
+        </button>
+        
+        <button class="classOption" data-class="Warlock">
+            <img src="img/warlock.png" alt="Warlock">
+            <span>Warlock</span>
+        </button>
+        
+        <button class="classOption" data-class="Wizard">
+            <img src="img/wizard.png" alt="Wizard">
+            <span>Wizard</span>
+        </button>
+        <p>Paladin - Paladins are devoted to a sacred oath and use their divine powers to protect the innocent and smite evil.</p>
+        <p>Ranger - Rangers are skilled hunters and trackers, able to survive in the wild and take down their prey with a well planned ambush.</p>
+        <p>Rogue - Rogues are masters of stealth and deception, able to strike from the shadows, taking enemies down swiftly.</p>
+        <p>Sorcerer - Sorcerers are born with innate magical abilities, able to cast spells without the need for study or preparation.</p>
+        <p>Warlock - Warlocks gain their magical powers through a pact with an otherworldly being, granting them unique abilities and spells, for a price.</p>
+        <p>Wizard - Wizards are highly intelligent masters of knowledge, allowing them to cast a wide variety of spells to clear the way.</p>
+        </div>
+    </div>
+    <!-- overview hahmosta -->
+    <button id="overviewButton" class="myButton" hidden>Overview</button>
+    <div class="overview" id="overviewOutput"></div>
+  </body>
 </html>
