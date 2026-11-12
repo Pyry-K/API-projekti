@@ -23,9 +23,9 @@ Sovellus luo hahmon annetuista tiedoista. Syötät nimen, lajin ja luokan. Täm�
 Suunniteltiin aika erillaista tulosta, mutta toimintoja vähennettiin ja katsottiin mikä jää jäljelle.
 
 # Verkkolinkit
-- Julkaistu sovellus: 
-- GitHub-repositorio: 
-- Projektin videoesittely: 
+- Julkaistu sovellus: https://pyry-k.github.io/API-projekti/ 
+- GitHub-repositorio: https://github.com/Pyry-K/API-projekti/tree/main 
+- Projektin videoesittely: https://youtu.be/0ZI1qC8QgRE?si=ZRkKEoZs_Ocj_Fwh 
 
 # Tietoja sovelluksesta
 Character Creatorin tarkoitus on siis tehdä pohja hahmolle, mitä sitten voi itse jalostaa myöhempää käyttöä varten.
@@ -90,7 +90,7 @@ Pohdi työtäsi ja oppimisprosessiasi.
         - HTML ei tullut tällä kertaa mitään aivan uutta.
         - CSS perustaitojen kehitys.
         - JS:ssä tuli opittua miten saa API requestilla dataa suoraan HTML elentteihin.
-    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? Tuli ehkä vähän heikompi suoritus kuin normaalisti. Vähän suppeampi projekti.
+    - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? Tuli ehkä vähän vähemmän asioita kuin aluksi suunniteltiin. Vähän suppeampi projekti.
     - Oma arvio projektista: 8/10 pistettä
     - Tuntien määrä käytetty projektiin: 8-10h
 
